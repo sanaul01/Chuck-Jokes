@@ -4,14 +4,15 @@ import Banner from '../Banner/Banner';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Navbar from '../Navbar/Navbar';
+import Jokes from '../Jokes/Jokes';
 
 const Home = () => {
     return (
         <div>
-           <Navbar/>
-           <Banner/>
-           <Header/>
-           <Footer/>
+            <Navbar />
+            <Jokes />
+            <Header />
+            <Footer />
         </div>
     );
 };
